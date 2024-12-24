@@ -25,7 +25,7 @@ function ProfilePage() {
   }, [location.search]);  // Re-fetch if the query parameter changes
 
   return (
-    <div className="flex justify-center items-center h-screen bg-slate-950">
+    <div className="flex justify-center items-center h-screen bg-slate-900">
       {userData ? (
         <ProfileCard user={userData} />
       ) : (
